@@ -1,0 +1,97 @@
+.advantageSection {
+    background-color: hsla(225, 32%, 95%, 1);
+    padding-bottom: 5rem;
+}
+
+@media (min-width: 1100px) {
+    .advantageSection {
+        padding-bottom: 6rem;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 90%; 
+}
+@media (min-width: 768px) {
+
+    .container {   
+        max-width: 85%;
+    }
+} 
+
+@media (min-width: 1100px) {
+    .container {
+        width: 1108px;
+        max-width: 80%;
+    }
+}
+
+.advantagesContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5.5rem;
+    position: relative;
+}
+
+@media (min-width: 1100px) {
+    .advantagesContainer {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .advantagesContainer div:nth-of-type(2) {
+        transform: translateY(10%);
+    }
+
+    .advantagesContainer div:nth-of-type(3) {
+        transform: translateY(20%);
+    }
+}
+
+.headingWrapper {
+    margin-bottom: 6rem;
+}
+
+.headingTitle {
+    font-size: 1.75rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+@media (min-width: 1100px) {
+    .headingTitle {
+        font-size: 2.5rem;
+    }
+}
+
+.headingText {
+    color: #9e9aa8;
+    max-width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media (min-width: 1100px) {
+    .headingText {
+        max-width: 55%;
+    }
+}
+
+.blueLine {
+    background-color: #2bd0d0;
+    height: 90%;
+    width: 8px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (min-width: 1100px) {
+    .blueLine {
+        height: 8px;
+        width: 90%;
+        top: 50%;
+    }
+}

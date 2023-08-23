@@ -1,0 +1,59 @@
+.ctaSection {
+    background-image: url("../images/bg-boost-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    background-color: #3a3054;
+    padding: 5.625rem 0;
+}
+
+@media (min-width: 768px) {
+    .ctaSection {
+        background-image: url("../images/bg-boost-desktop.svg");
+    }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 90%; 
+}
+@media (min-width: 768px) {
+
+    .container {   
+        max-width: 85%;
+    }
+} 
+
+@media (min-width: 1100px) {
+    .container {
+        width: 1108px;
+        max-width: 80%;
+    }
+}
+
+.ctaContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .ctaContent {
+        gap: 2rem;
+    }
+}
+
+.cta {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .cta{
+        font-size: 2.5rem;
+    }
+}

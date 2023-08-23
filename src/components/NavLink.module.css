@@ -1,0 +1,46 @@
+.navItem {
+    text-align: center;
+    margin-bottom: 1.875rem;
+    font-size: 1.125rem;
+    cursor: pointer;  
+}
+
+.navItem:hover, .navItem:active {
+    opacity: 0.7;
+}
+
+@media (min-width: 768px) {
+    .navItem {
+        font-size: 0.8rem;
+        display: inline-block;
+        margin-right: 2rem;
+        text-align: unset;
+        margin-bottom: unset;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navItem {
+        opacity: 1;
+        font-size: 0.94rem;
+    }
+}
+
+.navButton {
+    background-color: #33CECC;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-bottom: unset;
+}
+
+.navButton:hover, .navButton:active {
+    background-color: #9ae3e3;
+}
+
+@media (min-width: 768px) {
+    .navButton {
+        margin-right: unset;
+        color: #fff;
+        padding: 7px 19px;
+    }
+}

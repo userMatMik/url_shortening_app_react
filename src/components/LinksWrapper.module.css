@@ -1,0 +1,31 @@
+.linksWrapper {
+    text-align: center;
+    margin-top: -3.3rem;
+}
+
+@media (min-width: 768px) {
+    .linksWrapper {
+        margin-top: -3rem;
+    }
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.deleteAllBtn {
+    border: none;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #34313d;
+    opacity: 0.5;
+}
+
+.deleteAllBtn:hover, .deleteAllBtn:active {
+    color: #f46363;
+    opacity: 1;
+}

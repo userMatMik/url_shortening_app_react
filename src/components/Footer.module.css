@@ -1,0 +1,73 @@
+.footer {
+    background-color: #232127;
+    padding: 3.5rem 0;
+}
+
+@media (min-width: 1100px) {
+    .advantageSection {
+        padding-bottom: 6rem;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 90%; 
+}
+@media (min-width: 768px) {
+
+    .container {   
+        max-width: 85%;
+    }
+} 
+
+@media (min-width: 1100px) {
+    .container {
+        width: 1108px;
+        max-width: 80%;
+    }
+}
+
+.footerElements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+@media (min-width: 1100px) {
+    .footerElements {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+}
+
+.footerLogo { 
+    flex-grow: 2;
+}
+
+.footerLinksGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.socialLink {
+    list-style: none;
+    cursor: pointer;
+}
+
+.socialLink > svg > path:hover {
+    fill: #2bd0d0;
+}

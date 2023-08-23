@@ -1,0 +1,162 @@
+.heroSection{
+    margin-top: 1rem;
+    overflow: hidden;
+    margin-bottom: 8rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 90%; 
+}
+@media (min-width: 768px) {
+
+    .container {   
+        max-width: 85%;
+    }
+} 
+
+@media (min-width: 1100px) {
+    .container {
+        width: 1108px;
+        max-width: 80%;
+    }
+}
+    
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+
+@media (min-width: 900px) {
+    .hero {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero {
+        display: flex;
+        flex-direction: row-reverse;
+        transform: translateX(9.15rem);
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 1300px) {
+    .hero {
+        transform: translateX(7.5rem);
+    }
+}
+
+.imgContainer {
+    transform: translateX(15%);
+}
+@media (min-width: 768px) {
+    .imgContainer {
+
+    }
+}
+@media (min-width: 1200px) {
+    .imgContainer {
+        transform: translateX(0);
+    }
+}
+
+.heroImg{
+    flex-grow: 1;
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 2.25rem;
+    position: relative;
+    /* right: -0.5rem; */
+}
+
+@media (min-width: 500px) {
+    .heroImg {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 900px) {
+    .heroImg {
+        max-width: 450px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .heroImg {
+        max-width: unset;
+        margin-bottom: 0;
+    }
+}
+.heroContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 900px) {
+    .heroContent {
+        align-items: flex-start;
+        text-align: left;
+    }
+}
+
+@media (min-width:1200px) {
+    .heroContent {
+        min-width: 55%;
+    }
+}
+
+.heroTitle {
+    text-align: center;
+    color: #34313d;
+    font-size: 2.625rem;
+    margin-bottom: 1.5rem;
+    line-height: 3.5rem;
+}
+
+@media (min-width: 900px) {
+    .heroTitle {
+        font-size: 2rem;
+        line-height: 2rem;
+        align-items: flex-start;
+        text-align: left;
+    }
+}
+
+@media (min-width:1200px) {
+    .heroTitle {
+        font-size: 5rem;
+        line-height: 5.5rem;
+    }
+}
+
+.heroText {
+    color: #9e9aa8;
+    font-size: 1.125rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+@media (min-width: 900px) {
+    .heroText {
+        align-items: flex-start;
+        text-align: left;
+    }
+}
+
+@media (min-width:1200px) {
+    .heroText {
+        align-items: flex-start;
+        text-align: left;
+    }
+}
+
+

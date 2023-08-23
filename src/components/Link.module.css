@@ -1,0 +1,94 @@
+a, a:link, a:visited {
+    text-decoration: none;
+} 
+  
+.linkWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 7px;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .linkWrapper {
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5rem;
+        padding-inline: 2rem;
+    }
+}
+
+.link {
+    color: #34313d;
+    padding-bottom: 0.5rem;
+}
+
+.linkWrapper > .link:first-of-type {
+    border-bottom: 1px solid #9e9aa8;
+}
+
+@media (min-width: 768px) {
+    .link {
+        padding-bottom: 0;
+    }
+    .linkWrapper > .link:first-of-type {
+        border-bottom: none;
+        margin-right: auto;
+    }
+}
+
+.linkShort {
+    display: inline-block;
+    color: #2bd0d0; 
+}
+
+.coppyBtn {
+    border: none;
+    background-color: #33CECC;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    font-size: 1.125rem;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.coppyBtn:hover, .coppyBtn:active {
+    background-color: #9ae3e3;
+}
+
+.coppyBtn.clicked {
+    background-color: #3A3054;
+}
+
+@media (min-width: 768px) {
+    .coppyBtn {
+        padding: 10px 30px;
+    }
+}
+
+.deleteBtn {
+    border: none;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 0.725rem;
+    color: #34313d;
+    opacity: 0.5;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.deleteBtn:hover, .deleteBtn:active {
+    color: #f46363;
+    opacity: 1;
+}
+
+@media (min-width: 768px) {
+    .deleteBtn {
+        position: static;
+    }
+}
